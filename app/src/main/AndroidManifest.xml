@@ -11,13 +11,16 @@
         android:theme="@style/Theme.EmisiApp">
         <activity
             android:name=".homeActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name=".signUp"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name=".signIn"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
