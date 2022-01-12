@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">EmisiApp</string>
+    <string name="login">Login</string>
+    <string name="emisisadyakala">EMISI SADYKALA</string>
+    <string name="text">aplikasi guna menghitung emisi</string>
+</resources>
