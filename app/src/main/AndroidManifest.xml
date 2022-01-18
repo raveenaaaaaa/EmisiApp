@@ -10,8 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EmisiApp">
         <activity
-            android:name=".test123"
-            android:exported="false" />
+            android:name=".profilActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar"/>
         <activity
             android:name=".homeActivity"
             android:exported="true"
