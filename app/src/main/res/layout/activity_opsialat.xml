@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F8DE"
+    tools:context=".opsialat">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="378dp"
+        android:layout_height="111dp"
+        android:layout_margin="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/border"
+        android:drawableRight="@drawable/ic_a24c056e_c7bf_4c1f_8a6d_9d6d128c1665"
+        android:padding="15dp"
+        android:text="Berapa emisi karbon yang dihasilkan dari peralatan elektronikmu?"
+        android:textColor="#675031"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/borderbulat"
+            android:padding="12dp"
+            android:src="@drawable/ic_anyconv_com__ac" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/borderbulat"
+            android:padding="12dp"
+            android:src="@drawable/ic_anyconv_com__mesin_cuci" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/borderbulat"
+            android:padding="12dp"
+            android:src="@drawable/ic_anyconv_com__laptop" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/borderbulat"
+            android:padding="12dp"
+            android:src="@drawable/ic_anyconv_com__kipas_angin" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/borderbulat"
+            android:padding="12dp"
+            android:src="@drawable/ic_anyconv_com__setrika" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/borderbulat"
+            android:padding="12dp"
+            android:src="@drawable/ic_anyconv_com__blender" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/borderbulat"
+            android:padding="12dp"
+            android:src="@drawable/ic_anyconv_com__lampu" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/borderbulat"
+            android:padding="12dp"
+            android:src="@drawable/ic_anyconv_com__herdryer" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/borderbulat"
+            android:padding="12dp"
+            android:src="@drawable/ic_anyconv_com__termos" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/lanjutopsi"
+        android:layout_width="367dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="15dp"
+        android:backgroundTint="#AC8C60"
+        android:drawableRight="@drawable/ic_baseline_arrow_forward_24"
+        android:text="Hitung"
+        android:textAlignment="textStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text1">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/borderbulat"
+            android:padding="12dp"
+            android:src="@drawable/ic_tv" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/borderbulat"
+            android:padding="12dp"
+            android:src="@drawable/ic_anyconv_com__kulkas" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/borderbulat"
+            android:padding="12dp"
+            android:src="@drawable/ic_anyconv_com__microwave" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
