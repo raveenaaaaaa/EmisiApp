@@ -23,7 +23,7 @@ class homeActivity : AppCompatActivity(), View.OnClickListener {
         btnimage.setOnClickListener(this)
 
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomnav)
-        val navController = findNavController (R.id.fragment)
+        val navController = findNavController(R.id.fragment)
 
         bottomNavigationView.setupWithNavController(navController)
 
