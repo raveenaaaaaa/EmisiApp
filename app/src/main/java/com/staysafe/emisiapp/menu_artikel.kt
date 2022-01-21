@@ -20,6 +20,7 @@ class menu_artikel : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu_artikel)
 
+
         expandableListView = findViewById(R.id.expendableList)
         if (expandableListView != null) {
             val listData = data

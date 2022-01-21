@@ -9,11 +9,11 @@
 
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="371dp"
-        android:layout_height="73dp"
-        android:layout_marginStart="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
         android:layout_marginTop="15dp"
-        android:layout_marginEnd="15dp"
+        android:layout_marginEnd="35dp"
         android:drawableRight="@drawable/ic_anyconv_com__sampah__2_"
         android:paddingLeft="15dp"
         android:paddingTop="15dp"
@@ -25,7 +25,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginStart="15dp"
@@ -60,10 +60,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="25dp"
-                android:layout_marginRight="20dp"
+                android:layout_height="match_parent"
                 android:gravity="center"
                 android:orientation="vertical">
 
@@ -81,11 +78,12 @@
                     android:layout_width="100px"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_margin="30px"
+                    android:background="@android:color/holo_orange_light"
+                    android:inputType="numberDecimal"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
-                    android:layout_margin="30px"
                     android:textColor="#AC8C60"
-                    android:inputType="numberDecimal"
                     android:textSize="25dp" />
 
                 <TextView
@@ -101,9 +99,8 @@
                     android:layout_width="100dp"
                     android:layout_height="30dp"
                     android:layout_marginTop="12dp"
-                    android:textSize="20dp"
                     android:background="@drawable/borderhasil"
-                    />
+                    android:textSize="20dp" />
 
             </LinearLayout>
         </LinearLayout>

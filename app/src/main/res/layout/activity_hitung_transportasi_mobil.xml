@@ -9,11 +9,11 @@
 
     <TextView
         android:id="@+id/text1"
-        android:layout_width="411dp"
-        android:layout_height="112dp"
-        android:layout_marginStart="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
         android:layout_marginTop="15dp"
-        android:layout_marginEnd="15dp"
+        android:layout_marginEnd="35dp"
         android:background="@drawable/border"
         android:drawableRight="@drawable/ic_anyconv_com__mobil"
         android:paddingLeft="15dp"
@@ -52,15 +52,16 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:layout_marginEnd="15dp"
         android:background="@drawable/border"
         android:orientation="vertical"
         android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
@@ -100,8 +101,8 @@
                 android:id="@+id/spinner"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textAlignment="center"
-                android:entries="@array/jumlahkendaraan"/>
+                android:entries="@array/jumlahkendaraan"
+                android:textAlignment="center" />
 
 
         </LinearLayout>
@@ -122,8 +123,8 @@
                 android:id="@+id/spinner2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textAlignment="center"
-                android:entries="@array/bahanbakar" />
+                android:entries="@array/bahanbakar"
+                android:textAlignment="center" />
 
         </LinearLayout>
 
@@ -143,8 +144,7 @@
                 android:id="@+id/textView20"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/borderhasil"
-                 />
+                android:background="@drawable/borderhasil" />
 
         </LinearLayout>
 

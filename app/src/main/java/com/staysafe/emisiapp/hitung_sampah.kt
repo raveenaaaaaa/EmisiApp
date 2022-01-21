@@ -11,34 +11,34 @@ class hitung_sampah : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_hitung_sampah)
 
-        val inputtext = findViewById<EditText>(R.id.quantity_textview)
-        val faktoremisi = findViewById<TextView>(R.id.emisifaktorsampah)
-        val hasil = findViewById<TextView>(R.id.hasilsampah)
-        val bHitung = findViewById<Button>(R.id.hitungsampah)
-        val reset= findViewById<Button>(R.id.resetsampah)
-        val next = findViewById<Button>(R.id.lanjutsampah)
+        val inputtext2 = findViewById<EditText>(R.id.quantity_textview)
+        val faktoremisi2 = findViewById<TextView>(R.id.emisifaktorsampah)
+        val hasil2 = findViewById<TextView>(R.id.hasilsampah)
+        val bHitung2 = findViewById<Button>(R.id.hitungsampah)
+        val reset2 = findViewById<Button>(R.id.resetsampah)
+        val next2 = findViewById<Button>(R.id.lanjutsampah)
 
-        faktoremisi.text = "0.427"
+        faktoremisi2.text = "0.427"
 
-        bHitung.setOnClickListener {
+        bHitung2.setOnClickListener {
             //validasi nilai dari edittext
-            if (inputtext.text.toString() == "") {
-                inputtext.error = "Berat sampah harus diisi"
+            if (inputtext2.text.toString() == "") {
+                inputtext2.error = "Berat sampah harus diisi"
                 return@setOnClickListener
             }
 
             //mengambil nilai dari edittext
-            val nilai = inputtext.text.toString().toDouble()
-            var f = faktoremisi.text.toString().toDouble()
+            val nilai2 = inputtext2.text.toString().toDouble()
+            var f = faktoremisi2.text.toString().toDouble()
 
-            val result = nilai * f
-            hasil.text = result.toString()
+            val result = nilai2 * f
+            hasil2.text = result.toString()
         }
 
-        reset.setOnClickListener{
-            inputtext.getText().clear()
-            faktoremisi.text = " "
-            hasil.text = " "
+        reset2.setOnClickListener{
+            inputtext2.getText().clear()
+            faktoremisi2.text = " "
+            hasil2.text = " "
         }
 
     }
